@@ -4,7 +4,6 @@
  *   SLICE 1
  **************/
 
-window.localStorage.setItem('coffeeData', JSON.stringify(data));
 
 function updateCoffeeView(coffeeQty) {
   oldCoffeeCnt=parseInt(document.getElementById('coffee_counter').innerText)
